@@ -1,0 +1,79 @@
+* {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); */
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1em; */
+  place-items: center;
+  place-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.container > div {
+  color: white;
+  max-width: 300px;
+  display: grid;
+  gap: 2em;
+  padding: 2em;
+  height: 120%;
+  border-bottom-left-radius: 10px;
+  margin-top: 1em;
+}
+.ajay {
+  background-color: #e38826;
+}
+.sai {
+  background-color: #006970;
+}
+.leo {
+  background-color: #004241;
+}
+button {
+  padding: 0.3em 0.6em;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+}
+.select {
+  border-radius: 20px;
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+button:hover {
+  color: white;
+  border: 1px solid white;
+}
+.select:hover {
+  background-color: #e38826;
+}
+.l {
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(18, 147, 18);
+}
+.l:hover {
+  background-color: #006970;
+}
+.k {
+  border-radius: 20px;
+  font-weight: bold;
+  color: rgb(10, 83, 10);
+}
+.k:hover {
+  background-color: #004241;
+}
